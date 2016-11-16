@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabd="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_delete_timetable"
+        android:orderInCategory="120"
+        android:icon="@mipmap/ic_delete_black_24dp"
+        android:title="@string/delete_timetable"
+        sabd:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_settings_webactivity"
+        android:orderInCategory="110"
+        android:title="@string/settings"
+        sabd:showAsAction="never"/>
+</menu>

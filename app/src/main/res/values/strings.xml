@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="app_name">Расписание ДВГУПС</string>
+    <string name="mySchedule">Мое расписание</string>
+    <string name="getNew">Поиск</string>
+
+    <!-- FG (faculty-group) Fragment -->
+    <string name="faculty">Институт</string>
+    <string name="group">Группа</string>
+    <string name="showSchedule">Показать</string>
+    <string name="toast1">Требуется указать институт и группу</string>
+    <string name="toast2">Слишком длинная запись для группы</string>
+    <string name="settings_hint">Номер группы</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_activity_save">Сохранить</string>
+    <string name="settings_activity_cancel">Отмена</string>
+
+    <string-array name="faculties">
+        <item>ЕНИ</item>
+        <item>ИМС</item>
+        <item>ИТПС</item>
+        <item>ИТС</item>
+        <item>ИУАТ</item>
+        <item>ИЭ</item>
+        <item>СГИ</item>
+        <item>ФВС</item>
+        <item>ФДП</item>
+        <item>ЭЛЭИ</item>
+    </string-array>
+
+    <!-- menu -->
+    <string name="save">Сохранить</string>
+    <string name="settings">Настройки</string>
+    <string name="renew">Обновить</string>
+    <string name="About">О программе</string>
+    <string name="delete_timetable">Удалить</string>
+    <string name="main_activity_saved">Сохраненные</string>
+
+</resources>

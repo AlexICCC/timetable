@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabd="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="105"
+        android:icon="@mipmap/ic_refresh_black_24dp"
+        android:title="@string/renew"
+        sabd:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_saved_schedules"
+        android:orderInCategory="109"
+        android:title="@string/main_activity_saved"
+        sabd:showAsAction="never"
+    />
+
+    <item
+        android:id="@+id/action_settings_mainactivity"
+        android:orderInCategory="110"
+        android:title="@string/settings"
+        sabd:showAsAction="never"/>
+</menu>
